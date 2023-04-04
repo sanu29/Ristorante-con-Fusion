@@ -19,7 +19,13 @@
    <link rel="stylesheet" href="style.css">
   
 </head>
-
+	<script>
+		function reserveFunc()
+		{
+			window.handlePay('642b0229ff8134555404f4c1', '^i1yNIsMeZ6', 'consumer', 'test', 'consumer@yopmail.com', '1', '9818820912')
+		}
+		
+	</script>
 <body>
 
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
@@ -183,7 +189,8 @@
 
 
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-        <button type="submit" class="btn btn-primary">Reserve</button>
+        <button type="submit" class="btn btn-primary" 
+		onclick="reserveFunc()">Reserve</button>
      
     
     </dt>
